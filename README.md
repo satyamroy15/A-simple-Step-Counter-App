@@ -7,8 +7,8 @@
 * Bugs fixed
 
 * Note: 
-  *Without clicking the "Start Pedometer" Button the steps counter will not be activated.
-  *It is done to avoid unnecessary/undesired records of steps.
+  ** Without clicking the "Start Pedometer" Button the steps counter will not be activated.
+  ** It is done to avoid unnecessary/undesired records of steps.
 
 **Open Source Contribution**
 
