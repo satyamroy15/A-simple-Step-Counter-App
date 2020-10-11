@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         // Get an instance of the SensorManager
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         accel = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
@@ -35,7 +34,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         TvSteps = (TextView) findViewById(R.id.tv_steps);
         BtnStart = (Button) findViewById(R.id.btn_start);
         BtnStop = (Button) findViewById(R.id.btn_stop);
-
 
 
         BtnStart.setOnClickListener(new View.OnClickListener() {
@@ -49,7 +47,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             }
         });
 
-
         BtnStop.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -60,11 +57,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             }
         });
 
-
-
     }
-
-
 
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
